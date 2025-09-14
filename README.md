@@ -1,4 +1,4 @@
-# BCI_group
+# BCI_Group
 This repository provides the environment files and environment control code examples that the BCI group needs to use.
 
 **HOW TO CONTROL THE GAME**
