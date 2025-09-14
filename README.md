@@ -1,7 +1,7 @@
 # BCI_env
 This repository provides the environment files and environment control code examples that the BCI group needs to use.
   
-In order to send movement commands to the pickleball envirenment, youcan refer to the control_unity.py. 
+In order to send movement commands to the pickleball envirenment, you can refer to the control_unity.py. 
   The function you need to develop by yourself is read_commands: 
 ```python
 try:
