@@ -3,7 +3,7 @@ This repository provides the environment files and environment control code exam
   
 ##In order to send movement commands to the pickleball envirenment, youcan refer to the control_unity.py. 
   The function you need to develop by yourself is read_commands: 
-'''python
+```python
 try:
     while env.agents:
         count+=1
@@ -12,14 +12,14 @@ try:
         action_right = [0, 0, 0, 0]
 
 
-
+```
 Quite similar with that in the file test_paral_keyboard.py, the mapping rules are: 
 *WSAD* means up, down, left, right
 *QE* means rotation_left, rotation_right
 *IKJL* means up, down, left, right
 *UO* means rotation_left, rotation_right
 
-'''python
+```python
         #action_left
         if 'w' in left_cmds:
             action_left[0] = 1
@@ -53,4 +53,4 @@ Quite similar with that in the file test_paral_keyboard.py, the mapping rules ar
         if done[env.agents[0]] or done[env.agents[1]]:
             sys.exit()
         obs = observation[env.agents[0]]['observation'][0]
-
+```
