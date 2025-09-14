@@ -11,7 +11,7 @@ try:
         action_left = [0, 0, 0, 0]
         action_right = [0, 0, 0, 0]
 
-'''
+
 
 Quite similar with that in the file test_paral_keyboard.py, the mapping rules are: 
 *WSAD* means up, down, left, right
@@ -53,4 +53,4 @@ Quite similar with that in the file test_paral_keyboard.py, the mapping rules ar
         if done[env.agents[0]] or done[env.agents[1]]:
             sys.exit()
         obs = observation[env.agents[0]]['observation'][0]
-'''
+
