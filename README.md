@@ -4,7 +4,7 @@ This repository provides the environment files and environment control code exam
 
 # dPickleBall Environment (https://github.com/dPickleball/BCI_env)
 
-![dPickleBall Competition Logo](Images/Logo.png)
+![dPickleBall Competition Logo](Logo.png)
 
 # Installation Steps to Set Up dPickleball Environment:
 
