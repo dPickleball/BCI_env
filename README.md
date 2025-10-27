@@ -28,7 +28,7 @@ Build URL: [https://drive.google.com/drive/u/0/folders/1lFqj6lopoIO96C_IO8yGXGzR
 4) python test_paral_keyboard.py    **(for keyboard control, remember to change path and point to the build)**
 5) The environment will be launched and shown. **(Ctrl + C to exit)**
 
-![Court](Images/Court.png)
+![Court](Court.png)
 **HOW TO CONTROL THE GAME**
 In order to send movement commands to the pickleball envirenment, you can refer to the control_unity.py. 
   The function you need to develop by yourself is read_commands: 
