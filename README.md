@@ -1,6 +1,34 @@
 # BCI_Group
 This repository provides the environment files and environment control code examples that the BCI group needs to use.
 
+
+# dPickleBall Environment (https://github.com/dPickleball/BCI_env)
+
+![dPickleBall Competition Logo](Images/Logo.png)
+
+# Installation Steps to Set Up dPickleball Environment:
+
+1) conda create -n dpickleball pip python=3.10.12
+2) conda activate dpickleball
+3) git clone https://github.com/dPickleball/dpickleball-ml-agents.git
+4) cd dpickleball-ml-agents
+5) pip install -e ./ml-agents-envs
+6) pip install -e ./ml-agents
+7) pip install matplotlib
+8) pip install opencv-python==4.7.0.72
+9) pip install pynput==1.8.1
+10) pip install numpy==1.23.5
+11) Download this repo, modify the path in test_paral.py
+
+# Usage:
+Build URL: [https://drive.google.com/drive/u/0/folders/1lFqj6lopoIO96C_IO8yGXGzRMY1S4fzi](https://drive.google.com/drive/folders/1lFqj6lopoIO96C_IO8yGXGzRMY1S4fzi)
+1) Download the build from the URL above 
+2) conda activate dpickleball
+3) python test_paral.py    **(remember to change path and point to the build)**
+4) python test_paral_keyboard.py    **(for keyboard control, remember to change path and point to the build)**
+5) The environment will be launched and shown. **(Ctrl + C to exit)**
+
+![Court](Images/Court.png)
 **HOW TO CONTROL THE GAME**
 In order to send movement commands to the pickleball envirenment, you can refer to the control_unity.py. 
   The function you need to develop by yourself is read_commands: 
